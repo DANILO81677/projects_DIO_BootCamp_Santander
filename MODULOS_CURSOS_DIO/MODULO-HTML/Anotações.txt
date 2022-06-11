@@ -1,0 +1,23 @@
+Editores simples:
+notepad++
+vscode
+chrome
+
+Estrutura Basica:
+<!DOCTYPE html> = Não é um elemento HTML, mas diz ao navegador oque está sendo escrito.
+<html></html> = Elemento principal, onde todo conteudo do site deve estar dentro.
+<head></head> = Meta informações, informações que o navegador necessita e navegador que o buscador necessita.
+<body></body> = Onde fica todo o conteudo da pagina.
+
+
+Semantica:
+
+Disponivel a partir de 2014 no HTML 5, trouxe melhorias em relação a DIVs (que anteriormente era necessária, para 
+criar divisores dentro da pagina e acabava gerando muita confusão pois era necessario declarar classes nas divs)
+
+<section> = Representa uma sessão generica de arquivos, como uma lista de artigos.
+<header> = Pode ser cabeçalho da pagina ou de parte da pagina, pode também ser cabelho do section.
+<article> = Representa um conteudo relevante dentro da pagina, por exemplo um blog.
+<aside> = Representa um conteudo relacionado ao conteudo principal da pagina, exemplo uma biografia de um autor,links.
+<footer> = Rodape da pagina ou parte da pagina.
+<h1>-<h6> = titulos. Só pode ter 1 h1 por pagina.
